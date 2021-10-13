@@ -30,8 +30,6 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-
-    android.buildFeatures.viewBinding = true
 }
 
 dependencies {
@@ -44,14 +42,15 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
+
 afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.pablogd.componentbox'
-                artifactId = 'component-box'
+                groupId = 'com.pablogd.debugginglog'
+                artifactId = 'debugging-log'
                 version = '1.0.4'
             }
         }
