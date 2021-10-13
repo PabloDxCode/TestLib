@@ -19,8 +19,7 @@ allprojects {
 .gradle of main module:
 ```groovy
 dependencies {
-   implementation 'com.github.PabloDxCode:TestLib:Tag'
+   implementation 'com.github.PabloDxCode.TestLib:component-box:1.0.4'
+   implementation 'com.github.PabloDxCode.TestLib:debugging-log:1.0.4'
 }
 ```
-
-Add in .gradle of project:
