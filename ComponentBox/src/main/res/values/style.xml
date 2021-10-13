@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+    </style>
+
+    <style name="Light" parent="BaseAppTheme">
+        <item name="android:background">@color/background</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Dark" parent="BaseAppTheme">
+        <item name="android:background">@color/background_Dark</item>
+        <item name="android:textColor">@color/textColor_Dark</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary_Dark</item>
+    </style>
+
+    <style name="LightButton">
+        <item name="android:background">#0090A3</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="DarkButton">
+        <item name="android:background">#005965</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

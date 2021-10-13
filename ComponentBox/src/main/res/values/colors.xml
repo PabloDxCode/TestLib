@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- LIGHT -->
+
+    <color name="background">#FFFFFF</color>
+    <color name="textColor">#1A1A1A</color>
+    <color name="textColorPrimary">#393939</color>
+
+    <!-- DARK -->
+
+    <color name="background_Dark">#2D2D2D</color>
+    <color name="textColor_Dark">#DDDDDD</color>
+    <color name="textColorPrimary_Dark">#B5B5B5</color>
+
+
+    <!-- Alert Bottom -->
+    <color name="bottomAlert_textColor">#FFFFFF</color>
+    <color name="bottomAlert_commonBackground">#009688</color>
+    <color name="bottomAlert_alertBackground">#FFC107</color>
+    <color name="bottomAlert_errorBackground">#D03344</color>
+
+</resources>
