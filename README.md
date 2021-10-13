@@ -10,16 +10,16 @@ Add in .gradle of project:
 .gradle of project:
 ```groovy
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+   repositories {
+   ...
+   maven { url 'https://jitpack.io' }
+   }
 }
 ```
 .gradle of main module:
 ```groovy
 dependencies {
-	  implementation 'com.github.PabloDxCode:TestLib:Tag'
+   implementation 'com.github.PabloDxCode:TestLib:Tag'
 }
 ```
 
