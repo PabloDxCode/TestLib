@@ -1,10 +1,15 @@
 package com.pablogd.debugginglog
 
 import android.util.Log
+import com.pablogd.core.ConfigLib
 
 object DebuggingLog {
 
     var tag = DebuggingLog.javaClass.simpleName
+
+    init {
+        ConfigLib.init()
+    }
 
     fun info(message: String){
         Log.i("$tag INFO --", message)

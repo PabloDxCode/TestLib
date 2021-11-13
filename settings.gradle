@@ -10,3 +10,4 @@ rootProject.name = "TestLib"
 include ':ComponentBox'
 include ':app'
 include ':DebuggingLog'
+include ':Core'
